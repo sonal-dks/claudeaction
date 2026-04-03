@@ -49,3 +49,9 @@ next-env.d.ts
 # database
 /prisma/dev.db
 /prisma/dev.db-journal
+
+# Browser automation artifacts
+.playwright-mcp/
+
+# Claude local settings (may contain personal config)
+.claude/settings.local.json
